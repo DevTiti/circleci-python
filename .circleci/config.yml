@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
+          name: Installing dependencies
           command: python main.py
       
 workflows:
