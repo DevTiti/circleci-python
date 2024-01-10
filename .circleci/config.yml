@@ -11,6 +11,6 @@ jobs:
           command: python main.py
       
 workflows:
-  build_now:
+  build_1:
     jobs:
       - build
